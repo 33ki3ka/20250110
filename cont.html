@@ -16,14 +16,31 @@
 </body>
 
 <div class="cont">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <p>TTC2450DT0003@edu.tech.ac.jp</p>
+    <br><br>
+    <div class="cm"><p>TTC2450DT0003@edu.tech.ac.jp</div>
+        <form name="contact" method="POST" action="/complete.html" netlify>
+            <p>
+              お名前：<input type="text" name="name">
+            </p>
+            <div class="ml"><p>
+              メールアドレス：<input type="email" name="email">
+            </p></div>
+            <p>
+              気に入ったページ：
+              <label><input type="checkbox" name="services" value="web_TOP"> TOP</label>
+              <label><input type="checkbox" name="services" value="PROFILE"> プロフィール</label>
+              <label><input type="checkbox" name="services" value="PORTFOLIO"> ポートフォリオ</label>
+            </p>
+        <div class="oto"><p>
+              お問い合わせ内容：<textarea name="message"></textarea>
+            </p></div>
+            <p>
+              <button type="submit">送信</button>
+            </p>
+          </form>
+        
+        
+    </p>
 </div>
 
 </html>
